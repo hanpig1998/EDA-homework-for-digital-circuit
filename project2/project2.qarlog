@@ -1,0 +1,34 @@
+Quartus II Archive log --	C:/Users/apple1/Desktop/project2/project2.qarlog
+
+Archive:	C:/Users/apple1/Desktop/project2/project2.qar
+Date:		Thu Jun 07 19:47:40 2018
+Quartus II 64-Bit		13.0.0 Build 156 04/24/2013 SJ Full Version
+
+	=========== Files Selected: ===========
+C:/Users/apple1/Desktop/project2/Final.v
+C:/Users/apple1/Desktop/project2/Move.v
+C:/Users/apple1/Desktop/project2/Mux4bit41.v
+C:/Users/apple1/Desktop/project2/acceptsignal.v
+C:/Users/apple1/Desktop/project2/db/project2.sim.vwf
+C:/Users/apple1/Desktop/project2/displaydecoder.v
+C:/Users/apple1/Desktop/project2/fredivider1.v
+C:/Users/apple1/Desktop/project2/fredivider2.v
+C:/Users/apple1/Desktop/project2/fredivider3.v
+C:/Users/apple1/Desktop/project2/incremental_db/compiled_partitions/project2.db_info
+C:/Users/apple1/Desktop/project2/judgewhichkey.v
+C:/Users/apple1/Desktop/project2/jwk_tb.v
+C:/Users/apple1/Desktop/project2/minus1.v
+C:/Users/apple1/Desktop/project2/mov_tb.v
+C:/Users/apple1/Desktop/project2/mul2.v
+C:/Users/apple1/Desktop/project2/output_files/Move_state.v
+C:/Users/apple1/Desktop/project2/project2.qpf
+C:/Users/apple1/Desktop/project2/project2.qsf
+C:/Users/apple1/Desktop/project2/sweepdisplay.v
+C:/Users/apple1/Desktop/project2/sweepkeyboard.v
+C:/Users/apple1/Desktop/project2/twobitcounter.v
+C:/Users/apple1/Desktop/project2/twofourdecoder.v
+c:/altera/13.0/quartus/bin64/assignment_defaults.qdf
+	======= Total: 23 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

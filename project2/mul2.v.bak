@@ -1,0 +1,25 @@
+module mul2(in,out,timing);
+input[7:0] in;
+input timing;
+output[7:0] out;
+wire m;
+assign m=~(&in);
+wire step;
+assign step=in[3]|(in[2]&(in[1]|in[0]))
+if (m==0)
+	begin
+	out=1;
+	end
+else if (m==1||timing==0)
+   begin
+	out[7]=0;
+	out[6]=in[5];
+	out[5]=in[4];
+	out[4]=step;
+	out[3]=(in[3]&in[0])|(in[2]&(~in[1])&(~in[0]));
+	out[2]=((~in[3])&(~in[2])&in[1])|((~in[3])&in[2]&in[1]&in[0])|(in[3]&(~(in[2]|in[1]|in[0])));
+	out[1]=((~in[3])&(~in[2])&in[0])|((~in[3])&in[2]&in[1]&(~in[0]))|(in[3]&(~(in[2]|in[1]|in[0])));
+	out[0]=0;
+	end
+end module
+	

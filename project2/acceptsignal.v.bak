@@ -1,0 +1,5 @@
+module acceptsignal(In,A);
+input[3:0] In;
+output A;
+assign A=|In;
+endmodule

@@ -1,0 +1,25 @@
+module sweepdisplay(CLK,displaydataL,displaydataR,display8,choosebit);
+input CLK;
+input[7:0] displaydataL;
+input[7:0] displaydataR;
+output[7:0] display8;
+output[3:0] choosebit;
+
+wire[1:0] sel;
+wire[3:0] out1;
+wire[3:0] out2;
+wire[3:0] out3;
+wire[3:0] out4;
+wire[3:0] chosennum;
+
+assign out4=displaydataR[3:0];
+assign out3=displaydataR[7:4];
+assign out2=displaydataL[3:0];
+assign out1=displaydataL[7:4];
+
+twobitcounter tbc(CLK,sel);
+Mux4bit41 mux4b41(out1,out2,out3,out4,sel,chosennum);
+displaydecoder dspd(chosennum,display8);
+twofourdecoder tfd(sel,choosebit);
+
+endmodule

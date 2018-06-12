@@ -1,0 +1,46 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\apple1\Desktop\project2\simulation\modelsim
+vmov_tb
+!i10b 1
+!s100 5Eb^b:lH^]lRLGUaRbD[Q3
+I:DmHzjE]j^z3gnJQWGPR@2
+V>DX?2OgJIWZncLiISH<YD0
+Z1 dC:\Users\apple1\Desktop\project2\simulation\modelsim
+w1528200937
+8C:/Users/apple1/Desktop/project2/mov_tb.v
+FC:/Users/apple1/Desktop/project2/mov_tb.v
+L0 2
+Z2 OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1528370310.773000
+!s107 C:/Users/apple1/Desktop/project2/mov_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/apple1/Desktop/project2|C:/Users/apple1/Desktop/project2/mov_tb.v|
+!s101 -O0
+Z3 o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/apple1/Desktop/project2 -O0
+vMove
+I9HTMkjU30IYjeH2ZbLAfT2
+V18iT^eWHC52IWV^N0Z[gg3
+R1
+w1528370304
+8project2.vo
+Fproject2.vo
+L0 31
+R2
+r1
+31
+R3
+n@move
+!i10b 1
+!s100 8f1IOf:DO26Y19R2kJML01
+!s85 0
+!s108 1528370310.682000
+!s107 project2.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|project2.vo|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+. -O0

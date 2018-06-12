@@ -1,0 +1,30 @@
+module Final(CLK,keyRows,reset,keyCols,display8,bitchoose);
+input CLK;
+input[3:0] keyRows;
+input reset;
+output[3:0] keyCols;
+output[7:0] display8;
+output[3:0] bitchoose;
+
+wire[7:0] out1;
+wire[7:0] out2;
+wire[4:0] Key;
+wire CLK1;
+wire CLK2;
+wire CLK3;
+wire[3:0] chosennum;
+wire timing;
+wire stoptiming;
+
+
+fredivider1 fred1(CLK,CLK1);
+fredivider2 fred2(CLK,CLK2);
+fredivider3 fred3(ClK,CLK3);
+judgewhichkey jwk(CLK1,keyCols,keyRows,Key,timing);
+movebit mb(CLK1,timing,stoptiming,Key,out1);
+right2 RGT(CLK3,timing,out1,out2,stoptiming);
+
+
+sweepdisplay sd(CLK2,out1,out2,display8,bitchoose);
+
+endmodule

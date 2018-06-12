@@ -1,0 +1,11 @@
+Info (10281): Verilog HDL Declaration information at fredivider1.v(2): object "clk" differs only in case from object "CLK" in the same scope
+Info (10281): Verilog HDL Declaration information at fredivider2.v(2): object "clk" differs only in case from object "CLK" in the same scope
+Info (10281): Verilog HDL Declaration information at sweepkeyboard.v(3): object "A" differs only in case from object "a" in the same scope
+Info (10281): Verilog HDL Declaration information at acceptsignal.v(4): object "A" differs only in case from object "a" in the same scope
+Info (10281): Verilog HDL Declaration information at acceptsignal.v(5): object "B" differs only in case from object "b" in the same scope
+Info (10281): Verilog HDL Declaration information at judgewhichkey.v(4): object "keyCols" differs only in case from object "keycols" in the same scope
+Info (10281): Verilog HDL Declaration information at fredivider3.v(2): object "clk" differs only in case from object "CLK" in the same scope
+Warning (10268): Verilog HDL information at Move.v(33): always construct contains both blocking and non-blocking assignments
+Info (10281): Verilog HDL Declaration information at Move.v(4): object "in" differs only in case from object "In" in the same scope
+Warning (10268): Verilog HDL information at Move_state.v(33): always construct contains both blocking and non-blocking assignments
+Info (10281): Verilog HDL Declaration information at Move_state.v(4): object "in" differs only in case from object "In" in the same scope

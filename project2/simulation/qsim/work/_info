@@ -1,0 +1,81 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\apple1\Desktop\project2\simulation\qsim
+vmul2
+Z1 IMV;g3`aVf;zDBMfE_`F=T3
+Z2 V;eYPGOUmMJf;40AOB^M7W1
+Z3 dC:\Users\apple1\Desktop\project2\simulation\qsim
+Z4 w1527408155
+Z5 8project2.vo
+Z6 Fproject2.vo
+L0 31
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 o-work work -O0
+!i10b 1
+Z9 !s100 E;<]_IkP[RRW_inNR5[lV2
+!s85 0
+Z10 !s108 1527408156.140000
+Z11 !s107 project2.vo|
+Z12 !s90 -work|work|project2.vo|
+!s101 -O0
+vmul2_vlg_check_tst
+!i10b 1
+!s100 aMzM5CDPlH8SVOD5?RgnR0
+IgD?^D]oz5YTSDn9mTST=:0
+VlhM4@QF6`L]O]QQRQH5_[0
+R3
+Z13 w1527408154
+Z14 8project2.vt
+Z15 Fproject2.vt
+L0 57
+R7
+r1
+!s85 0
+31
+Z16 !s108 1527408156.215000
+Z17 !s107 project2.vt|
+Z18 !s90 -work|work|project2.vt|
+!s101 -O0
+R8
+vmul2_vlg_sample_tst
+!i10b 1
+!s100 c5MTa7B]S@TWfDZdIoM^g1
+IXi^HPeIegA3c37_[3R;m50
+V3Hz@TBYcYR2jC8fna4>:U0
+R3
+R13
+R14
+R15
+L0 29
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
+vmul2_vlg_vec_tst
+!i10b 1
+!s100 D88def`QJ6aGYW>XIL^<02
+IUC6cZeNz]]U<ejU9UB:Dm0
+V8zGDW;CO5J=SlA_`n?:T13
+R3
+R13
+R14
+R15
+L0 277
+R7
+r1
+!s85 0
+31
+R16
+R17
+R18
+!s101 -O0
+R8
