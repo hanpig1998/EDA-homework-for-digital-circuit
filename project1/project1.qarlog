@@ -1,0 +1,27 @@
+Quartus II Archive log --	C:/Users/apple1/Desktop/project1/project1.qarlog
+
+Archive:	C:/Users/apple1/Desktop/project1/project1.qar
+Date:		Tue Apr 24 19:08:59 2018
+Quartus II 64-Bit		13.0.0 Build 156 04/24/2013 SJ Full Version
+
+	=========== Files Selected: ===========
+C:/Users/apple1/Desktop/project1/1unit_adder.bdf
+C:/Users/apple1/Desktop/project1/1unit_adder.vwf
+C:/Users/apple1/Desktop/project1/4unit_adder.bdf
+C:/Users/apple1/Desktop/project1/4unit_adder.vwf
+C:/Users/apple1/Desktop/project1/MN.bdf
+C:/Users/apple1/Desktop/project1/MN.vwf
+C:/Users/apple1/Desktop/project1/db/project1.cmp.rdb
+C:/Users/apple1/Desktop/project1/db/project1.sim.vwf
+C:/Users/apple1/Desktop/project1/fre-divider.bdf
+C:/Users/apple1/Desktop/project1/fre-divider.vwf
+C:/Users/apple1/Desktop/project1/incremental_db/compiled_partitions/project1.db_info
+C:/Users/apple1/Desktop/project1/main.bdf
+C:/Users/apple1/Desktop/project1/main.vwf
+C:/Users/apple1/Desktop/project1/project1.qpf
+C:/Users/apple1/Desktop/project1/project1.qsf
+c:/altera/13.0/quartus/bin64/assignment_defaults.qdf
+	======= Total: 16 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
